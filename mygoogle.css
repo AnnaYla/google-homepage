@@ -1,0 +1,53 @@
+element.style{
+    display: block;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+
+body {
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    display: block;
+
+}
+#all {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nav-top{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+}
+
+#logo{
+    padding-top:200px ;
+    display: center;
+    max-height: 92px;
+    position: center;
+    height: 100%;
+    margin-top: auto;
+}
+#search {
+    padding: 20px;
+    max-height: 160px;
+    display: block;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+#footer{
+
+}
+
+.footer_bottom {
+
+}
+
