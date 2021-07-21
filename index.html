@@ -4,58 +4,83 @@
         <meta charset= "UTF-8">
         <title>My Simple Copy of Google Homepage</title>
         <link rel="stylesheet" href="mygoogle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 
     </head>
     <body>
-        <div id="all">
-            <div class="nav_top">
-                <nav>
-                    <a href="https://www.gmail.com" target="_blank">YAnna Gmail</a>
-                    <a href="https://www.google.se/imghp?hl=sv&ogb" target="_blank">Bilder</a>
-                    <a href="https://www.google.se/intl/en/about/products" target=_blank>Google Apps</a>
-                    <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.se/&ec=GAZAmgQ" target="_blank">Sign in</a>
-                </nav>
+<!--top right where gmail, images, apps and sign in is-->
+        <div class="top-right-nav">
+                
+                 <nav>
+                    <a href="https://www.gmail.com" class="top-right-nav" target="_blank">Gmail</a>
+                    <a href="https://www.google.se/imghp?hl=sv&ogb" class="top-right-nav" target="_blank">Images</a>
+                    <a href="https://www.google.se/intl/en/about/products" class="top-right-nav" target=_blank>
+                        <span class="material-icons">apps</span> </a>
+                    <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.se/&ec=GAZAmgQ" 
+                    class="top-right-nav" target="_blank"> <img src="yan.JPG" width="40px" id="photo-avatar" alt="yanna smiling" ></a>
+                 </nav>
+                
+        </div>
+<!--the google logo and search bar-->
+        <div class="content">
 
-            </div>
-
-            <div id="logo">
-                <img src="google logo.png" alt="google logo">    
-            </div>
-
-            <div id="search">
+            <img src="google logo.png" id="google-logo" width="300" alt="google logo">    
+        
+        
+            <div class="searchbar-icons">
                 <form>
-                    <label for="gsearch">     </label>
-                    <input type="search" name="gsearch">
-                    <input type="button" value="Google Search">
-                    <input type="button" value="I'm Feeling Lucky">
-                  </form>
+                    <div class="icon-right-container">
+                        <span class="material-icons">search</span>
+                    </div>
+                    
+                     <div class="icon-left-container">
+                        <span class="material-icons">keyboard</span>
+                        <span class="material-icons">mic</span>
+                    </div>
+                    
+                     <input type="search" id="searchbar" name="gsearch">
+            </div>  
+        </div>
 
-                  <h6>Google offered in: <a href="https://www.google.se" target="_blank">svenska </a> </h6>
+            </div class="bottom-searchbar">
 
-            </div>
+              </form>
+                    <input type="button" class="bottom-searchbar" value="Google Search">
 
-            <div id="footer">
+                    <input type="button" class="bottom-searchbar" value="I'm Feeling Lucky">                  
+            
+                    <h6>Google offered in: <a href="https://www.google.se" class="bottom-offer" target="_blank">svenska </a> </h6>
+             </div>
+            
+        
 
-                <div class="footer_bottom">
+<!--footer gray-->           
+               
+        <div class="footer">
+
+                <div id="upper-footer">
                      <p>sweden</p>
                 </div>
                 
-                <nav class="footer_bottom">
-                    <a href="https://about.google/?utm_source=google-SE&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">About</a>
-                    <a href="https://www.google.se/intl/en_se/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Advertising</a>
-                    <a href="https://www.google.se/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" target="_blank">Business</a>
-                    <a href="https://google.com/search/howsearchworks/?fg=1" target="_blank">How Search Works</a>
+                <div id="bottom-footer">
+                    <nav class="footer-bottom">
+                        <a href="https://about.google/?utm_source=google-SE&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="footer_bottom" target="_blank">About</a>
+                        <a href="https://www.google.se/intl/en_se/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="footer_bottom" target="_blank">Advertising</a>
+                        <a href="https://www.google.se/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="footer_bottom" target="_blank">Business</a>
+                        <a href="https://google.com/search/howsearchworks/?fg=1" class="footer_bottom" target="_blank">How Search Works</a>
 
-                    <a href="https://policies.google.com/privacy?hl=en-SE&fg=1" target="_blank">Privacy</a>
-                    <a href="https://policies.google.com/terms?hl=en-SE&fg=1" target="_blank">Terms</a>
-                    <a href="#" target="_blank">Settings</a>
+                        <a href="https://policies.google.com/privacy?hl=en-SE&fg=1" class="footer_bottom" target="_blank">Privacy</a>
+                        <a href="https://policies.google.com/terms?hl=en-SE&fg=1" class="footer_bottom" target="_blank">Terms</a>
+                        <a href="#" class="footer_bottom" target="_blank">Settings</a>
 
-                </nav>
-
-            </div>
+                    </nav>
+                </div>
 
 
         </div>
 
     </body>
 </html>
+
+
